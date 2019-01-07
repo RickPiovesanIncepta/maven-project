@@ -1,0 +1,1 @@
+mvn -s..\maven-files\mysettings.xml -DskipMunitTests %*%
