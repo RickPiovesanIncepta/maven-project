@@ -49,3 +49,4 @@ src/main/api/.repository/
 
 
 *.log
+activemq-data/
