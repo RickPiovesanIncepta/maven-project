@@ -27,7 +27,7 @@ public class HelloMavenTest extends FunctionalTestCase {
     
     @Test
     public void retrieveFlightsAddsAppropriateHeader() throws Exception {
-    	System.out.println("\n\n------------ Test Case #1 - port used: " + myPort.getNumber() + "\n\n");
+    	System.out.println("\n\n------------ Test Case #2 - port used: " + myPort.getNumber() + "\n\n");
       MuleEvent event = runFlow("retrieveFlights");
       String contentType = event.getMessage().getOutboundProperty("Content-Type");
       assertEquals("application/json", contentType);
